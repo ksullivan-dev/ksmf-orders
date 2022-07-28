@@ -5,6 +5,7 @@ module.exports = defineConfig({
     output: {
       libraryTarget: "system",
     },
-    externals: [/^@ksmf\/.+/],
+    // externals: ["vue", "vue-router", /^@ksmf\/.+/],
   },
+  filenameHashing: false,
 });
